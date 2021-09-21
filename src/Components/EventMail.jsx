@@ -9,13 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
  const EventMail = () => {
     return (
         <div className='EventMail-section'>
-
-
-            <div className="container-fluid">
-
                <div className="row">
                     <div className='title1 col-lg-6'>
-                        <div className="container">
                         <h1 className='first'>
                         Join Mailing List
                         </h1>
@@ -24,15 +19,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                         address, confirm you are happy to receive our emails and then select  ‘Subscribe’.
                         </h2>
 
-
-                         <div class="name1">
-                            <label class="visually-hidden" for="autoSizingInput">First Name</label>
-
-                        
-                      
-                        <div class="name1">
+                         <div className="name1">
                             <label className="visually-hidden" for="autoSizingInput">First Name</label>
-
                             <input type="text" placeholder="First Name"
                             className="forms text-start" id="autoSizingInput" >
                             </input>
@@ -43,12 +31,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                             className="forms text-start" id="autoSizingInput" >
                             </input>
                         </div>
-                        <div >
-                        <Link to='/' className="name1b">
+                        <Link to='/'>
                             <button type="button" className=" submits">Submit</button>
                         </Link>
-                        </div>
-
                     </div>
                     <div className=' col-lg-6 title2'>
                     <div className='event'>
@@ -113,12 +98,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                         </div>
                     </div>
                 </div>
-
                 <div className="container">
-                <div class="row">
-
                 <div className="row">
-                    <div className="col-lg-3 text-start contact-us">
+                    <div className="col-md-4 text-start contact-us">
                     <div className="location">
                         Rivers State ICT Department, opposite the Pleasure Park,
                         Aba Road, Port Harcourt
@@ -136,15 +118,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                     </div>
                     </div>
                     </div>
-
                     <div className="col-md-2"></div>
                     <div className="col-md-2"></div>
                     <div class="col-md-4 text-end copyright">
-
-                    <div className='col-lg-3'></div>
-                    <div className='col-lg-3'></div>
-                    <div className="col-lg-3  copyright">
-
                     <div className="copy-right">
                     &#169; 2021 Tech Creek, All Right Reserved
                     </div>
@@ -153,14 +129,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                     </div>
                     </div>
                 </div>
-
                 </div>
-
-            </div>
-
         </div>
        
+        
     )
 }
 
-export default EventMail
+export default EventMail;
